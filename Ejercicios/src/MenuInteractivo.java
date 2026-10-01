@@ -28,7 +28,7 @@ public class MenuInteractivo {
     }
 
     private static void segundoPlano() {
-        ProcessBuilder pb = new ProcessBuilder("cmd","c/","timeout /t 10");
+        ProcessBuilder pb = new ProcessBuilder("cmd","/c","timeout /t 10");
             //ns
             try{
                 Process p = pb.start();
@@ -39,7 +39,7 @@ public class MenuInteractivo {
     }
 
     private static void primerPlano() {
-        ProcessBuilder pb = new ProcessBuilder("cmd","c/","timeout /t 10");
+        ProcessBuilder pb = new ProcessBuilder("cmd","/c","timeout /t 10");
             pb.inheritIO();
             try{
                 Process p = pb.start();
