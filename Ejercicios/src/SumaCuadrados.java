@@ -10,8 +10,6 @@ public class SumaCuadrados {
     public static void main(String[] args) {
                 
         conPipeline();
-
-
     }
 
 
